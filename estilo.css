@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+
+@font-face{
+	font-family: 'DS-Digital';
+	src: url('DS-DIGIT.TTF');
+}
+
+body{
+	background-image: url("imgFundo.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div#principal{
+	background-color: rgba(251, 235, 183, 0.3);
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	top: 140px;
+	right: 180px;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	color: rgb(139,69,19);
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+div#principal p#diaSemana{
+	font-size: 20pt;
+}
+
+div#principal p#data{
+	font-size: 16pt;
+}
+
+div#principal p#hora{
+	font-family: 'DS-Digital';
+	font-size: 40pt;
+	letter-spacing: 0px;
+}
+
+div#principal p#mensagem{
+	font-size: 16pt;
+}
